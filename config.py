@@ -4,7 +4,7 @@ import tidy3d as td
 
 @dataclass
 class Config:
-    wavelength = 1.55
+    wavelength = 1.00
     freq0 = td.C_0 / wavelength
     fwidth = freq0 / 10
     run_time = 50 / fwidth
